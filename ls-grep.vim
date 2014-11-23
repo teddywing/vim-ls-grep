@@ -9,4 +9,4 @@ function! LsGrep(search)
 endfunction
 
 
-call LsGrep("ls")
+command! -nargs=1 LsGrep call LsGrep(<args>)
