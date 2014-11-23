@@ -3,7 +3,7 @@ function! LsGrep(search)
 	silent ls
 	redir END
 	
-	let ls_output = system("echo " . shellescape(ls_output) . " | grep " . shellescape(a:search))
+	let ls_output = system("echo " . shellescape(ls_output) . " | grep -i " . shellescape(a:search))
 	
 	echo ls_output
 endfunction
