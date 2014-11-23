@@ -1,4 +1,4 @@
-function! LsGrep(search)
+function! ls_grep#LsGrep(search)
 	" Store :ls output
 	redir => ls_output
 	silent ls
@@ -10,6 +10,3 @@ function! LsGrep(search)
 	" Display
 	echo ls_output
 endfunction
-
-
-command! -nargs=1 LsGrep call LsGrep("<args>")
