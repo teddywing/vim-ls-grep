@@ -13,7 +13,7 @@ Provide support for grepping `:ls` output. Say you have 20 buffers open. To find
 Install using any of the various Vim package management plugins. If you use [pathogen](https://github.com/tpope/vim-pathogen), you can run the following to install:
 
 	cd ~/.vim/bundle
-	git clone https://github.com/teddywing/auditory.vim.git
+	git clone https://github.com/teddywing/vim-ls-grep.git
 
 
 ## License
