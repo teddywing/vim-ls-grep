@@ -1,0 +1,21 @@
+*ls_grep.txt*	Grep the output of the :ls command
+
+
+==============================================================================
+INTRODUCTION                                                         *ls-grep*
+
+LsGrep allows you to grep |:ls| output for a certain buffer. It's a tiny
+plugin that provides a single command: |:LsGrep|. This command takes a search
+string argument which outputs a filtered version of |:ls| output using the
+search string. This lets you find the buffer numbers of the files you need
+without doing a manual visual scan through the list.
+
+==============================================================================
+COMMANDS                                                    *ls-grep-commands*
+
+                                                             *ls-grep-:LsGrep*
+:LsGrep {bufname}       Search the buffer list for {bufname}. The search
+                        string can be a substring of the file. Fuzzy matching
+                        is not supported.
+
+ vim:tw=78:et:ft=help:norl:
