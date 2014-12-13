@@ -1,0 +1,4 @@
+ls-grep	ls_grep.txt	/*ls-grep*
+ls-grep-:LsGrep	ls_grep.txt	/*ls-grep-:LsGrep*
+ls-grep-commands	ls_grep.txt	/*ls-grep-commands*
+ls_grep.txt	ls_grep.txt	/*ls_grep.txt*
